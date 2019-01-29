@@ -1,0 +1,14 @@
+package com.capgemini.app.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+@Controller
+public class SenderController {
+
+	@PostMapping(value="/message")
+	public String message() {
+		return "HELLO WORLD !!!";
+	}
+}

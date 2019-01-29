@@ -1,0 +1,5 @@
+package com.capgemini.app.RabbitMQ.messaging.receiver;
+
+public class Receiver {
+
+}

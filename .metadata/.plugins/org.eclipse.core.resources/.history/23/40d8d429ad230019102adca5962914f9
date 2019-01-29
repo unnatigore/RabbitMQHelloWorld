@@ -1,0 +1,5 @@
+package com.capgemini.app.controller;
+
+public class SenderController {
+
+}
